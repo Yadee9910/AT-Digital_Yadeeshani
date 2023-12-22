@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    height: 77px;
+    padding: 26px 80px;
+    justify-content: space-between;
+    align-items: center;
+    background: #6B3CC9;
+}
+.Logo_img{
+    width: 238.889px;
+    height: 25px;
+}
+
+.navbar{
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+    list-style: none;
+    padding: 26px 80px 26px 0px;
+}
+
+.nav_list{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    gap: 28px;
+}
