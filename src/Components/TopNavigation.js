@@ -1,12 +1,13 @@
 import React from 'react';
 import "../Styles/topnavigation.css";
+import logo from "../Assests/Logo.jpg";
 
 function TopNavigation(){
     return(
        <div className="nav">
         <div className="Logo">
             <img className="Logo_img"
-            src="./Assests/Logo.jpg" alt=""/>
+            src={logo} alt=""/>
         </div>
     <div className="menu">
         <ul className="navbar">
