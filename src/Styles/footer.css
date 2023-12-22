@@ -2,7 +2,11 @@
 .footer{
     background: #6B3CC9; 
     width: 100%;
-  
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: center;
+   
 }
 
 .footer_container{
@@ -88,7 +92,7 @@
 .footer_service{
     width: 197px;
     height:auto;
-    max-height: 187px;
+    max-height: 199px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -103,4 +107,42 @@
     font-weight: 600;
     line-height: normal;
     margin-top: 0;
+}
+.footer_under{
+    display: flex;
+    width: 630px;
+    flex-direction: column;
+    align-items: center;  
+    padding-top: 40px;
+    justify-content: center;
+   
+       
+}
+
+.foot_horizonline{
+    background: #FFF;
+    width: 100%;
+    max-width: 630px;
+    height: 1px; 
+   
+}
+.foot_conditions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.foot_conditions p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.foot_verticaline{
+    width: 1px;
+height: 16px;
+background: #FFF;
 }

@@ -39,7 +39,19 @@ function Footer(){
                         </ul>
                     </div>
                 </div>
+
+                
+
            </div>
+           <div className="footer_under">
+                    <hr className="foot_horizonline"></hr>
+                    <div className="foot_conditions">
+                        <p>Privacy Policy</p>
+                        <hr className="foot_verticaline"></hr>
+                        <p>Terms & Conditions</p>
+                    </div>
+                    
+                </div>
         </div>
         
     );
