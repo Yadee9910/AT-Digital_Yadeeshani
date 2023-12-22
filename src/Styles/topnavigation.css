@@ -9,6 +9,7 @@
 .Logo_img{
     width: 238.889px;
     height: 25px;
+    flex-shrink: 0;
 }
 
 .navbar{
