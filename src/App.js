@@ -1,8 +1,8 @@
-import TopNavigation from "./Components/TopNavigation";
+import Button from "./Components/Button.js";
 
 function App() {
   return (
-   <TopNavigation />
+   <Button />
   );
 }
 
