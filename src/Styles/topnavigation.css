@@ -1,19 +1,24 @@
+
 .nav{
     display: flex;
-    height: 77px;
-    padding: 26px 80px;
-    justify-content: space-between;
+    height: auto;
+    max-height: 77px;
     align-items: center;
     background: #6B3CC9;
+    justify-content: space-between;
+    width:100%;
+
 }
-.Logo_img{
-    width: 238.889px;
-    height: 25px;
-    flex-shrink: 0;
+
+.Logo{
+    padding-top:26px ;
+    padding-left: 80px;
+    padding-bottom: 26px;
 }
 
 .navbar{
     display: flex;
+    align-items: center;
     align-items: flex-start;
     gap: 28px;
     list-style: none;
@@ -22,11 +27,11 @@
 
 .nav_list{
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    gap: 28px;
+   
 }
 
