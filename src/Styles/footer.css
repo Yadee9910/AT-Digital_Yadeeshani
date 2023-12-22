@@ -1,31 +1,44 @@
 .footer{
-    background: #6B3CC9;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    background: #6B3CC9; 
+    
+    
+}
+.footer_container{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     align-self: stretch;
+    color: rgba(255, 255, 255, 1);
+    padding: 40px 80px 20px 80px;
 }
+
 .footer_logo{
-    padding-top:20px;
-    padding-left: 80px;  
+    display: flex;
     width: 413px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    height:auto;
+    max-height: 199px;
+    padding-right: auto;
+
+
 }
 
 .Logo_img{
     width: 238.889px;
     height: 25px;
-    flex-shrink: 0;
-    padding-bottom: 20px;
+    
 }
-
 .desc{
     color: #FFF;
-    font-family: 'Lato', sans-serif;
+    font-family: Lato;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal; 
-    width: 100%;
-    align-self: stretch;
+    line-height: normal;
+    
 }
