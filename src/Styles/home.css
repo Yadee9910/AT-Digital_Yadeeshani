@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.home_img{
+    
+    margin-top:calc(-40px) ;
+    height: 763px;
+    width: 100%;
+}
+
+.img_home{
+    margin-top: 40px;
+    background:  lightgray 50% / cover no-repeat;
+    background-image: url("../Assests/andy-kelly.jpg");
+    height: 700px;
+}
+
+.home_text{
+    display: flex;
+    width: 630px;
+    flex-direction: column;
+    height: 306px;   
+    max-height: auto;
+    background: linear-gradient(257deg, #1CBDDD 27.86%, #4DCA79 100%), #FFF;
+    margin:calc(-354px) 730px 63px 80px; 
+}
+
+.home_desc{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 48px */
+    letter-spacing: -0.96px;
+    text-transform: capitalize;
+    padding: 24px 40px 20px 40px;
+  
+}
+.btn_home{
+    margin-left: 40px;
+    margin-bottom: 32px;
+}

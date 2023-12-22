@@ -1,9 +1,9 @@
 import "../Styles/button.css";
 
-function Button(){
+function Button({text, style}){
     return(
         <div className="btn">
-            <button className="nav_button" type="button">Get free consultation</button>
+            <button className={`nav_button ${style}`}  type="button">Get free consultation</button>
         </div>
     );
 }
