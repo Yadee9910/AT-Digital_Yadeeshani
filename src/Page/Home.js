@@ -1,6 +1,7 @@
 import "../Styles/home.css";
 import TopNavigation from "../Components/TopNavigation";
 import Button from "../Components/Button";
+import Footer from "../Components/Footer";
 
 function Home(){
     return(
@@ -48,6 +49,7 @@ function Home(){
         </div>
 
     </div>
+    <Footer />
 </div>
 
     );
