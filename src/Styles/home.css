@@ -45,20 +45,34 @@
   
 }
 
-.home_contentweb{
+.home_contentweb,
+.home_contentDigital{
     display: inline-flex;
     align-items: center;
     gap: 108px;
     margin-left:188px ;
  
 }
+.home_contentDigital{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
 .home_webcontent_img{
     background-image: url("../Assests/image\ 2.jpg");
     background-repeat: no-repeat; 
     height:414px;
     width: 414px;
 }
-.web_content{
+.home_Digitalcontent_img{
+    background-image: url("../Assests/image\ 1.jpg");
+    background-repeat: no-repeat; 
+    height:416px;
+    width: 414px;
+}
+
+.web_content,
+.Digital_content{
     display: flex;
     width: 542px;
     height:auto;
@@ -67,7 +81,8 @@
     gap: 20px;
 }
 
-.web_topic{
+.web_topic,
+.Digital_topic{
     color: #6B3CC9;
     font-family: 'Poppins', sans-serif;
     font-size: 27px;
