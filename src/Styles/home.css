@@ -24,7 +24,7 @@
     height: 306px;   
     max-height: auto;
     background: linear-gradient(257deg, #1CBDDD 27.86%, #4DCA79 100%), #FFF;
-    margin:calc(-354px) 730px 63px 80px; 
+    margin:calc(-354px) 730px 0px 80px; 
 }
 
 .home_desc{
@@ -42,4 +42,46 @@
 .btn_home{
     margin-left: 40px;
     margin-bottom: 32px;
+  
+}
+
+.home_contentweb{
+    display: inline-flex;
+    align-items: center;
+    gap: 108px;
+    margin-left:188px ;
+ 
+}
+.home_webcontent_img{
+    background-image: url("../Assests/image\ 2.jpg");
+    background-repeat: no-repeat; 
+    height:414px;
+    width: 414px;
+}
+.web_content{
+    display: flex;
+    width: 542px;
+    height:auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.web_topic{
+    color: #6B3CC9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px; /* 122.222% */
+    letter-spacing: 0.4px;
+}
+
+.content_home{
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
