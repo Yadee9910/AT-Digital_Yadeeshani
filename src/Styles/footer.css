@@ -1,44 +1,106 @@
+
 .footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background: #6B3CC9; 
-    
-    
+    width: 100%;
+  
 }
+
 .footer_container{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: row;
     align-self: stretch;
     color: rgba(255, 255, 255, 1);
     padding: 40px 80px 20px 80px;
+  
+ 
 }
 
 .footer_logo{
-    display: flex;
-    width: 413px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
+    width:100%;
+    max-width: 413px;
     height:auto;
     max-height: 199px;
-    padding-right: auto;
-
-
+    margin-right: 345px;
+   
 }
 
-.Logo_img{
-    width: 238.889px;
-    height: 25px;
-    
-}
+
 .desc{
     color: #FFF;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     
+}
+.footer_desc{  
+    width: auto;
+    max-width: 522px;
+    height:auto;
+    max-height: 199px;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+ 
+}
+.footer_tech{
+    width: 197px;
+    height:auto;
+    max-height: 199px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 128px;
+    align-items: flex-start;
+   
+}
+
+.technology{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 0;
+}
+
+.listitems{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   
+}
+.list{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.footer_service{
+    width: 197px;
+    height:auto;
+    max-height: 187px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+
+.Services{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 0;
 }
