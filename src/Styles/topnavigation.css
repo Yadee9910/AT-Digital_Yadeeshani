@@ -35,6 +35,57 @@
 }
 
 
+    
+/*----Adding media queries for screen size 375px-----*/
+
+@media screen and (min-width: 375px) {
+    .menu-icon {
+        cursor: pointer;
+        padding-right: 26px;
+    }
+
+    .iconmenu {
+        width: 31px;
+        height: 24px;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 77px; 
+        left: 0;
+        width: 100%;
+        background: #6B3CC9;
+        padding-top: 8px;
+        padding-right: 0px;
+    }
+
+    
+    .nav.menu-open .navbar {
+        display: flex;
+    }
+
+   
+    .navbar .nav_list {
+        display: none;
+        color: #FFF;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 16px; 
+        cursor: pointer;
+    }
+
+    
+    .nav.menu-open .navbar .nav_list {
+        display: block;
+    }
+}
+
+
 /*----Adding media queries for screen size 1200px-----*/
 
     @media screen and (max-width:1200px){
@@ -71,52 +122,3 @@
     }
 
 
-    
-/*----Adding media queries for screen size 375px-----*/
-
-    @media screen and (min-width: 375px) {
-        .menu-icon {
-            cursor: pointer;
-            padding-right: 26px;
-        }
-
-        .iconmenu {
-            width: 31px;
-            height: 24px;
-        }
-
-        .navbar {
-            display: none;
-            flex-direction: column;
-            position: absolute;
-            top: 77px; 
-            left: 0;
-            width: 100%;
-            background: #6B3CC9;
-            padding-top: 8px;
-            padding-right: 0px;
-        }
-
-        
-        .nav.menu-open .navbar {
-            display: flex;
-        }
-
-       
-        .navbar .nav_list {
-            display: none;
-            color: #FFF;
-            font-family: 'Inter', sans-serif;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
-            margin-bottom: 16px; 
-            cursor: pointer;
-        }
-
-        
-        .nav.menu-open .navbar .nav_list {
-            display: block;
-        }
-    }
