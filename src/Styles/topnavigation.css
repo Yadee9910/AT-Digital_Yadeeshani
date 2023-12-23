@@ -37,23 +37,6 @@
 
  /*----Adding media queries for screen size 375px-----*/
 
-@media screen and (min-width: 375px) {
-    .menu-icon {
-        display:none;
-    
-    }
-
-   
-
-    
-
-   
-    .navbar .nav_list {
-        display: block;
-    }
-
-    
-}
 
 
 
