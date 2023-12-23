@@ -109,7 +109,7 @@
 
 /*----Adding media queries for screen size 375px-----*/
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
     
     .home_img {
         margin-top: calc(-21px);
