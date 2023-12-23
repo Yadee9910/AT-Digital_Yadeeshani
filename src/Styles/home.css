@@ -177,7 +177,7 @@
 
     
 /* Adding media queries for screen size 375px */
-@media screen and (max-width: 375px) {
+/*@media screen and (max-width: 375px) {
     .home_img {
         margin-top: calc(-21px);
         height: 239px;
@@ -242,7 +242,7 @@
         align-self: center; 
     }
     
-}
+}*/
 
     
 /*----Adding media queries for screen size 768px-----*/
