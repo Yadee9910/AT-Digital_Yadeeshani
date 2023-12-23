@@ -6,11 +6,9 @@ function Footer(){
         <div className="footer">
            <div className="footer_container">
                 <div className="footer_logo">
-                    <img className="Logo_imgfoot"
-                    src={logo} alt=""/>
+                    <img className="Logo_imgfoot" src={logo} alt=""/>
                     <p className="desc">
-                    Your goal is our target. 
-                    Not anything in between. We use online 
+                    Your goal is our target.Not anything in between. We use online 
                     marketing platforms and tools to achieve single objective - your business results.
                     </p>
                 </div>
@@ -39,10 +37,8 @@ function Footer(){
                         </ul>
                     </div>
                 </div>
-
-                
-
            </div>
+           
            <div className="footer_under">
                     <hr className="foot_horizonline"></hr>
                     <div className="foot_conditions">
