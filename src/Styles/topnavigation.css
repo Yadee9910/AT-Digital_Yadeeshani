@@ -40,7 +40,7 @@
 
 @media screen and (max-width: 375px) {
     .menu-icon {
-        display:block;
+        display:block !important;
         cursor: pointer;
         padding-right: 26px;
     }
@@ -70,14 +70,7 @@
    
     .navbar .nav_list {
         display: none;
-        color: #FFF;
-        font-family: 'Inter', sans-serif;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        margin-bottom: 16px; 
-        cursor: pointer;
+        
     }
 
     
@@ -90,7 +83,7 @@
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
     .menu-icon {
-        display:block;
+        display:block !important;
         cursor: pointer;
         padding-right: 26px;
     }
@@ -141,10 +134,7 @@
 /*----Adding media queries for screen size 768px-----*/   
 
 @media screen and (max-width:768px){
-    .menu-icon {
-        display:none;
-    }
-
+   
     .Logo_img{
         padding-left: 40px;
     }
@@ -158,9 +148,7 @@
 /*----Adding media queries for screen size 1200px-----*/
 
     @media screen and (max-width:1200px){
-        .menu-icon {
-            display:none;
-        }
+        
         .nav{
             display: flex;
             width:100%;
