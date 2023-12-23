@@ -38,7 +38,7 @@
     
 /*----Adding media queries for screen size 375px-----*/
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
     .menu-icon {
         cursor: pointer;
         padding-right: 26px;
@@ -85,6 +85,19 @@
     }
 }
 
+ 
+/*----Adding media queries for screen size 768px-----*/   
+
+@media screen and (max-width:768px){
+    .Logo_img{
+        padding-left: 40px;
+    }
+    .navbar{  
+        padding: 26px 40px 26px 0px;
+        
+    }
+}
+
 
 /*----Adding media queries for screen size 1200px-----*/
 
@@ -108,17 +121,5 @@
 
     }
 
- 
-/*----Adding media queries for screen size 768px-----*/   
-
-    @media screen and (max-width:768px){
-        .Logo_img{
-            padding-left: 40px;
-        }
-        .navbar{  
-            padding: 26px 40px 26px 0px;
-            
-        }
-    }
 
 
