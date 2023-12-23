@@ -33,7 +33,7 @@
    
 }
 .menu-icon{
-    display:none;
+    display:none !important;
 }
 
  /*----Adding media queries for screen size 375px-----*/
