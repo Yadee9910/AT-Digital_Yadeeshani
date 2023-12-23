@@ -41,7 +41,7 @@
     
 }
 .footer_desc{  
-    width: auto;
+    width: 100%;
     max-width: 522px;
     height:auto;
     max-height: 199px;
@@ -147,4 +147,27 @@
     width: 1px;
     height: 16px;
     background: #FFF;
+}
+
+@media screen and (max-width:1200px){
+    .footer_container{
+        padding: 40px 60px 40px 60px;
+    }
+    .footer_logo{   
+        max-width: 438px;    
+        max-height: 102px;
+        margin-right: 112px;
+  
+    }
+    .footer_desc{
+        max-width: 530px;
+        gap: 20px;
+    }
+    .footer_tech{
+        width: 255px;
+    }
+    .footer_service{
+        max-height: 170px;
+        width: 255px;
+    }
 }
