@@ -105,7 +105,8 @@
     line-height: normal;
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+
+@media screen and (max-width: 375px)  {
     .home_img {
         margin-top: calc(-21px);
         height: 239px;
@@ -173,7 +174,7 @@
 }
 
 
-@media screen and (max-width: 375px)  {
+@media screen and (min-width: 375px) and (max-width: 768px) {
     .home_img {
         margin-top: calc(-21px);
         height: 239px;
