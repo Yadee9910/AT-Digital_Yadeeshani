@@ -35,45 +35,7 @@
 }
 
 
- 
- 
-/*----Adding media queries for screen size 768px-----*/   
-
-@media screen and (max-width:768px){
-    .Logo_img{
-        padding-left: 40px;
-    }
-    .navbar{  
-        padding: 26px 40px 26px 0px;
-        
-    }
-}
-
-
-/*----Adding media queries for screen size 1200px-----*/
-
-    @media screen and (max-width:1200px){
-        .nav{
-            display: flex;
-            width:100%;
-            justify-content: space-between;   
-        }
-
-        .Logo_img{
-            padding-left:60px;
-            height:25px;       
-        }
-        
-        .navbar{  
-            padding: 26px 60px 26px 0px;
-            
-        }
-        
-
-    }
-
-   
-/*----Adding media queries for screen size 375px-----*/
+ /*----Adding media queries for screen size 375px-----*/
 
 @media screen and (max-width: 375px) {
     .menu-icon {
@@ -122,4 +84,49 @@
     }
 }
 
+
+ 
+/*----Adding media queries for screen size 768px-----*/   
+
+@media screen and (max-width:768px){
+    .menu-icon {
+        display:none;
+    }
+
+    .Logo_img{
+        padding-left: 40px;
+    }
+    .navbar{  
+        padding: 26px 40px 26px 0px;
+        
+    }
+}
+
+
+/*----Adding media queries for screen size 1200px-----*/
+
+    @media screen and (max-width:1200px){
+        .menu-icon {
+            display:none;
+        }
+        .nav{
+            display: flex;
+            width:100%;
+            justify-content: space-between;   
+        }
+
+        .Logo_img{
+            padding-left:60px;
+            height:25px;       
+        }
+        
+        .navbar{  
+            padding: 26px 60px 26px 0px;
+            
+        }
+        
+
+    }
+
+   
 
